@@ -1,5 +1,5 @@
 # 開發環境
-基本系統環境
+基本系統環境
 
 - python2
 - jdk8
@@ -73,7 +73,7 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 - 從 App Store 安裝 Xcode
 - 安裝 Xcode Command Line Tools, Xcode > ToolBar > Locations > Preferences
 ![](./assets/xcode1.png)
-- `xcode-select -p`，確認是否有安裝完成，安裝完成會回傳 `/Applications/Xcode.app/Contents/Developer`
+- `xcode-select -p`，確認是否有安裝完成，安裝完成會回傳 `/Applications/Xcode.app/Contents/Developer`
 - brew install watchman - 
 
 ## 開發環境
