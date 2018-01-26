@@ -15,6 +15,7 @@ $ react-native run-android
 
 **react-native init**
 - 新增乾淨的專案
+- [使用模板新增專案](template.md)
 
 **npm start**
 - 開啟 Bundle server
@@ -97,8 +98,8 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
-
 ```
+[Platform 使用情境](platform.md)
 
 ## 除錯
 ### 開發人員選單

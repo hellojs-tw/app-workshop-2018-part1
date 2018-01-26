@@ -1,6 +1,7 @@
 # 開發環境
 基本系統環境
-- python2
+
+- python2
 - jdk8
 - Homebrew
 
@@ -76,7 +77,7 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 - brew install watchman - 
 
 ## 開發環境
-- VS Code
+- VS code
   - [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
     - [設定 AirBnb EsLint](eslint.md)
@@ -95,13 +96,15 @@ npm start
 [https://snack.expo.io/](https://snack.expo.io/)
 
 ## VM 使用教學
-- 開啟 Genymotion
-- 開啟 Genymotion 當中的 Android 虛擬機 **Custom Phone - 7.1.0 - API 25 - 768x1280**，等待開機完成
-- 命令提示字元執行指令
-  ```
-  $ adb devices
-  $ adb tcpip 5556
-  ```
+
+[Genymotion、ADB (Mac)](https://drive.google.com/open?id=0B8Q6P_xVwRg9a08zTVNCUHMxZlk)
+
+[Genymotion、ADB (Windows)](https://drive.google.com/open?id=0B8Q6P_xVwRg9MzhsaGViTzJMR0k)
+
+[C9 環境](https://drive.google.com/file/d/0B8Q6P_xVwRg9X3J4bHFDSU5taE0/view?usp=sharing)
+
+[Android 模擬器](https://drive.google.com/open?id=0B8Q6P_xVwRg9YnVvOEtRMU9pc00)
+
 - 開啟 VirtualBox 當中的 HelloJS-RNC9 
 - HelloJS-RNC9 出現 login 字樣，開啟網頁 http://localhost:9083/ide.html
 - 到 C9 terminal 視窗輸入指令
@@ -110,6 +113,13 @@ npm start
   $ adb devices
   /* 測試是否有連上 */
   $ adb shell am start -a android.settings.SETTINGS
+  ```
+- 開啟 Genymotion
+- 開啟 Genymotion 當中的 Android 虛擬機 **Custom Phone - 7.1.0 - API 25 - 768x1280**，等待開機完成
+- 命令提示字元執行指令
+  ```
+  $ adb devices
+  $ adb tcpip 5556
   ```
 
 ## 常見問題
