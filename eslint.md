@@ -9,7 +9,7 @@ npm install --save-dev babel-eslint eslint-config-airbnb-base eslint-plugin-reac
 node_modules/.bin/eslint --init
 ```
 
-選擇 style
+選擇 style
 ```
 ? How would you like to configure ESLint? Use a popular style guide
 ? Which style guide do you want to follow? Airbnb
