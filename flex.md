@@ -57,13 +57,18 @@ flex 後面的數字代表所佔的比例
 
 flex-start
 ![](./assets/flex_start.png)
+
 center
 ![](./assets/flex_center.png)
-flex-start
+
+flex-end
 ![](./assets/flex_end.png)
-flex-start
+
+
+space-around
 ![](./assets/flex_around.png)
-flex-start
+
+space-between
 ![](./assets/flex_between.png)
 
 **alignItems**
