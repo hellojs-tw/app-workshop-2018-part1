@@ -71,7 +71,7 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 # Xcode
 - 從 App Store 安裝 Xcode
-- 安裝 Xcode Command Line Tools, Xcode > ToolBar > Locations > Preferences
+- 安裝 Xcode Command Line Tools, Xcode > ToolBar > Locations > Preferences
 ![](./assets/xcode1.png)
 - `xcode-select -p`，確認是否有安裝完成，安裝完成會回傳 `/Applications/Xcode.app/Contents/Developer`
 - brew install watchman - 
