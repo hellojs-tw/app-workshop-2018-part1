@@ -97,14 +97,7 @@ npm start
 
 ## VM 使用教學
 
-[Genymotion、ADB (Mac)](https://drive.google.com/open?id=0B8Q6P_xVwRg9a08zTVNCUHMxZlk)
-
-[Genymotion、ADB (Windows)](https://drive.google.com/open?id=0B8Q6P_xVwRg9MzhsaGViTzJMR0k)
-
-[C9 環境](https://drive.google.com/file/d/0B8Q6P_xVwRg9X3J4bHFDSU5taE0/view?usp=sharing)
-
-[Android 模擬器](https://drive.google.com/open?id=0B8Q6P_xVwRg9YnVvOEtRMU9pc00)
-
+[環境使用教學影片](https://youtu.be/2m7YyRycMhE)
 **注意有先後順序之分**
 - 開啟 Genymotion
 - 開啟 Genymotion 當中的 Android 虛擬機 **Custom Phone - 7.1.0 - API 25 - 768x1280**，等待開機完成
@@ -113,11 +106,12 @@ npm start
   $ adb devices
   $ adb tcpip 5556
   ```
-- 開啟 VirtualBox 當中的 HelloJS-RNC9 
-- HelloJS-RNC9 出現 login 字樣，開啟網頁 http://localhost:9083/ide.html
-- 到 ` HelloJS-RNC9 terminal` 視窗輸入指令
+- 開啟 VirtualBox 當中的 ReactNative 虛擬機 
+- ReactNative 虛擬機出現 login 字樣，開啟網頁 http://localhost:9083/ide.html
+- 到 ` ReactNative 虛擬機網頁當中的 terminal` 視窗輸入指令
   ```
   $ adb connect $ip:5556
+  /* $ip 請自行替換為 adb devices 回傳的 Android 虛擬機 IP 例如: adb connect 192.168.57.101:5556 */
   $ adb devices
   /* 測試是否有連上 */
   $ adb shell am start -a android.settings.SETTINGS

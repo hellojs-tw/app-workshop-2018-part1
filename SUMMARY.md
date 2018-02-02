@@ -7,4 +7,7 @@
   - [Flex](flex.md)
   - [View](view.md)
   - [Text](text.md)
+  - [Image](image.md)
+  - [Button](button.md)
   - [List](list.md)
+  - [Fetch](fetch.md)
