@@ -36,7 +36,7 @@ nvm install 8
 React Native 目前需要 Android Studio2.0 或更高版本。
 
 - 下載 [Windows Android Studio](https://developer.android.com/studio/index.html)
-- 安裝 Android Studio - [教學影片](https://developer.android.com/studio/install.html)
+- 安裝 Android Studio - [教學影片](https://developer.android.com/studio/install.html)
 - 安裝 SDK
 ![](./assets/androidstudio1.png)
 SDK Platforms 選擇 **Google APIs** 、 **Android SDK Platform 23**

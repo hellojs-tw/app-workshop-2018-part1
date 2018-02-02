@@ -5,7 +5,7 @@ Flexbox，就可以在不同屏幕尺寸上提供一致的佈局結構。
 例如: flexDirection 在網頁中預設是 row，在 RN 裡面預設為 column
 
 flex 後面的數字代表所佔的比例
-
+
 ```javascript
 <View style={{ flex: 1 }}>
   <View style={{ flex: 2, backgroundColor: 'skyblue' }}>
@@ -110,7 +110,7 @@ export default class FlexSample extends Component {
   }
 }
 ```
-![](./assets/flex_sample.png)
+![](./assets/flex_sample.png)
 ## 練習
 [flexboxfroggy](http://flexboxfroggy.com/) - 用遊戲學習 css 的 flexbox
 玩到第 12 關

@@ -1,6 +1,6 @@
 # Style
 - 架構 Component 樣式的元素
-- style 等於是一個 props
+- style 等於是一個 props
 - 遵循 web 上的 css 命名
 - css 命名改為小駝峰 例如: `font-size` 在 React Native 為 `fontSize`
 - style props 可以傳入 object
@@ -10,11 +10,11 @@
 
 ## StyleSheet 優點
   - 提高程式質量
-    - 從 render 當中的抽離 inline-style 樣式，可以使代碼更清晰易懂
-    - 給樣式命名對於 Component 可以提高可讀性
+    - 從 render 當中的抽離 inline-style 樣式，可以使代碼更清晰易懂
+    - 給樣式命名對於 Component 可以提高可讀性
   - 提高性能
     - 創建樣式表，後續可以通過 ID 來引用樣式，而不是每次都創建新的對象
-    - 使用 StyleSheet 新增 style object，可以把樣式變成 ID 往 child component 傳遞，提高效能
+    - 使用 StyleSheet 新增 style object，可以把樣式變成 ID 往 child component 傳遞，提高效能
 
 
 ### 傳入 Object
