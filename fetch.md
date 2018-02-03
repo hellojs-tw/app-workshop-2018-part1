@@ -25,7 +25,7 @@
 
 ## 使用教學
 
-###get
+### get
 
 ```
 getData = async (page) => {
@@ -58,7 +58,7 @@ getData = (page) => {
 ```
 
 
-###post
+### post
 
 ```
 fetch('https://mywebsite.com/endpoint/', {
@@ -74,7 +74,7 @@ fetch('https://mywebsite.com/endpoint/', {
 });
 ```
 
-###form
+### form
 
 ```
 const formData = new FormData();
@@ -90,7 +90,7 @@ fetch('https://mywebsite.com/endpoint/', {
 });
 ```
 
-###檔案上傳
+### 檔案上傳
 
 - [react-native-image-picker](https://github.com/react-community/react-native-image-picker) - 選擇圖片、影片套件  
 - [react-native-fs](https://github.com/itinance/react-native-fs) - 檢查檔案大小、判斷檔案是否存在  
