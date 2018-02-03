@@ -56,19 +56,24 @@ flex 後面的數字代表所佔的比例
 - space-between 根據主軸均勻分布物件
 
 flex-start
+
 ![](./assets/flex_start.png)
 
 center
+
 ![](./assets/flex_center.png)
 
 flex-end
+
 ![](./assets/flex_end.png)
 
 
 space-around
+
 ![](./assets/flex_around.png)
 
 space-between
+
 ![](./assets/flex_between.png)
 
 **alignItems**
